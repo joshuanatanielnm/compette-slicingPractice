@@ -170,6 +170,7 @@ module.exports = {
       DEFAULT: '1',
     },
     fontFamily: {
+      myFont: ['"Asap"'],
       sans: [
         'ui-sans-serif',
         'system-ui',
