@@ -1,4 +1,5 @@
 import Background from './../assets/landingPageBackground.svg'
+import Benefit from './../components/Benefit'
 import Header from './../components/Header'
 import Hero from './../components/Hero'
 import React from 'react'
@@ -8,7 +9,7 @@ const LandingPage = () => {
   let HeroStyle = {
     backgroundImage: `url(${Background})`,
     backgroundRepeat: `no-repeat`,
-    backgroundPosition: `center top -13vw`,
+    backgroundPosition: `center top -700px`,
     backgroundSize: `cover`,
   }
 
@@ -18,6 +19,7 @@ const LandingPage = () => {
         <Header />
         <Hero />
         <Sponsor />
+        <Benefit />
       </div>
     </div>
   )
