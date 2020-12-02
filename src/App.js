@@ -4,7 +4,7 @@ import LandingPage from './pages/LandingPage'
 
 function App() {
   return (
-    <div className='font-myFont App'>
+    <div className='font-myFont App' style={{ backgroundColor: '#FAFAFF' }}>
       <LandingPage />
     </div>
   )

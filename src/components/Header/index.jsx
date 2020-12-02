@@ -5,7 +5,7 @@ import Nav from './Nav'
 export default function Header() {
   let navigasi = ['Learn', 'Categories', 'Stories', 'Partner', 'Investor']
   return (
-    <div className=''>
+    <header className='py-5'>
       <div className='container flex justify-between mx-auto'>
         <div className='self-center mx-3 md:mx-6'>
           <svg
@@ -31,6 +31,6 @@ export default function Header() {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   )
 }

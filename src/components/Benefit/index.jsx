@@ -4,7 +4,7 @@ import BenefitList from './BenefitList'
 
 export default function index() {
   return (
-    <div className='container mx-auto mt-20 '>
+    <div className='container mx-auto mt-40 '>
       <div className='flex justify-around'>
         <div className='flex self-center'>
           <img src={BenefitImage} alt='' />

@@ -9,6 +9,10 @@ export default function BenefitList() {
       <List value='Helping preparing the paperwork' circleColor='black' />
       <List value='24/7 Best worker support' circleColor='yellow' />
       <List value='Trusted payment protection' circleColor='black' />
+
+      <button className='mt-10 text-xl underline'>
+        LEARN MORE ABOUT OUR BENEFIT
+      </button>
     </div>
   )
 }
