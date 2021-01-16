@@ -43,13 +43,15 @@ export default function Header() {
           {/* End Button Mobile Navbar */}
         </div>
         <div className='items-center mt-2 lg:flex '>
-          {mobileNavClicked && (
-            <div className='flex flex-col lg:flex-row lg:mx-6 lg:hidden'>
-              {navigasi.map((value, index) => (
-                <NavMobile value={value} key={index} />
-              ))}
-            </div>
-          )}
+          <div className='absolute mt-4 bg-black left-4 right-4 rounded-xl'>
+            {mobileNavClicked && (
+              <div className='flex flex-col lg:flex-row lg:mx-6 lg:hidden'>
+                {navigasi.map((value, index) => (
+                  <NavMobile value={value} key={index} />
+                ))}
+              </div>
+            )}
+          </div>
 
           <div className='hidden lg:flex lg:flex-row lg:mx-6'>
             {navigasi.map((value, index) => (

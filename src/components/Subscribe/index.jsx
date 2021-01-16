@@ -15,13 +15,13 @@ export default function Subscibe() {
           <h3 className='text-2xl text-white'>Subscribe New Job</h3>
           <p style={{ color: `#B0C3C9` }}>We promise never send you a spam</p>
         </div>
-        <div className='flex flex-col justify-center mt-10'>
+        <div className='flex flex-col justify-center m-2 mt-10 md:flex-row'>
           <input
             type='text'
-            className='py-4 sm:w-40 md:w-80 px-7 rounded-l-xl focus:outline-none'
+            className='w-full py-4 md:w-80 px-7 rounded-xl md:rounded-r-none md:rounded-l-xl focus:outline-none'
             placeholder='Type your email address'
           />
-          <button className='px-10 -ml-6 text-yellow-700 bg-yellow-500 rounded-full '>
+          <button className='px-10 py-2 mt-3 text-yellow-700 bg-yellow-500 rounded-full md:mt-0 md:-ml-6 '>
             Count Me In
           </button>
         </div>
