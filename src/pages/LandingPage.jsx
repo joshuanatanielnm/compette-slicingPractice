@@ -1,5 +1,6 @@
 import Background from './../assets/landingPageBackground.svg'
 import Benefit from './../components/Benefit'
+import Footer from './../components/Footer'
 import Header from './../components/Header'
 import Hero from './../components/Hero'
 import Jobs from './../components/Jobs'
@@ -26,6 +27,7 @@ const LandingPage = () => {
         <Benefit />
         <Jobs />
         <Subscribe />
+        <Footer />
       </div>
     </div>
   )

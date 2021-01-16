@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Nav(num) {
+export default function NavMobile(num) {
   const { value } = num
   return (
     <nav className='group'>

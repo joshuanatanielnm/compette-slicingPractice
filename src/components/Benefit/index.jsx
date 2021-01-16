@@ -1,12 +1,12 @@
-import React from 'react'
 import BenefitImage from './../../assets/benefitimage.png'
 import BenefitList from './BenefitList'
+import React from 'react'
 
 export default function index() {
   return (
-    <div className='container mx-auto mt-40 '>
+    <div className='container mx-auto mt-40'>
       <div className='flex justify-around'>
-        <div className='flex self-center'>
+        <div className='self-center hidden lg:flex'>
           <img src={BenefitImage} alt='' />
         </div>
         <div>

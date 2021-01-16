@@ -1,8 +1,6 @@
 import React from 'react'
 
 export default function List(param) {
-  console.log(param.value)
-  console.log(param.circleColor)
   return (
     <div className='flex mt-7'>
       {/* Circle */}
