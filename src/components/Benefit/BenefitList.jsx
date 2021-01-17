@@ -14,7 +14,7 @@ export default function BenefitList() {
       {lists.map((list, index) => (
         <List value={list.value} circleColor={list.circleColor} key={index} />
       ))}
-      <button className='mt-10 text-xl underline'>
+      <button className='mt-10 text-xl hover:underline'>
         LEARN MORE ABOUT OUR BENEFIT
       </button>
     </div>

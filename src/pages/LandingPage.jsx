@@ -18,17 +18,15 @@ const LandingPage = () => {
 
   return (
     <div>
-      <div>
-        <div style={HeroStyle}>
-          <Header />
-          <Hero />
-        </div>
-        <Sponsor />
-        <Benefit />
-        <Jobs />
-        <Subscribe />
-        <Footer />
+      <div style={HeroStyle}>
+        <Header />
+        <Hero />
       </div>
+      <Sponsor />
+      <Benefit />
+      <Jobs />
+      <Subscribe />
+      <Footer />
     </div>
   )
 }

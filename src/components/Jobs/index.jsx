@@ -57,7 +57,7 @@ export default function Jobs() {
         ))}
         {/* CARD */}
       </div>
-      <div className='w-full mt-10 text-center '>
+      <div className='w-full mt-10 text-center hover:underline'>
         <button>VIEW MORE INCOMING JOBS</button>
       </div>
     </div>

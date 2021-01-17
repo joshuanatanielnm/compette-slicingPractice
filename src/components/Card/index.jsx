@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Card({ img, company, location, salary, position }) {
   return (
-    <button className='self-center p-6 mx-2 my-2 text-left bg-white lg:w-1/2 xl:w-1/4 rounded-2xl w-80'>
+    <button className='self-center p-6 mx-2 my-2 text-left bg-white lg:w-1/2 xl:w-1/4 rounded-2xl w-80 hover:bg-gray-300'>
       <div>
         <div className='flex'>
           <div>
