@@ -5,6 +5,6 @@ Design from [Pixel BWA](https://pixel.buildwithangga.com/home).
 
 <div align="center">
 
-[![master](./public/social.PNG)](https://compette-slicing-practice.vercel.app/){:class="img-responsive"}
+[![master](./public/social.PNG)](https://compette-slicing-practice.vercel.app/)
 
 </div>
